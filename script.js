@@ -13,6 +13,9 @@ function enviar () {
    else {
       event.preventDefault(); //impede que o formulário seja enviado e que a página recarregue.
       paragrafo.textContent = `Usuário ${nome} logado com sucesso!`;
+      paragrafo.style.color = "lightgreen";
+      document.getElementById("name").value = "";
+      document.getElementById("senha").value = "";
    }
    
 
