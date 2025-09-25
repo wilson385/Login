@@ -50,10 +50,11 @@ button {
     padding: 6px;
     font-size: 15px;
     border: none;
+    border-radius: 10px;
 }
 
 button:hover {
-    background-color: transparent;
+    background-color: rgb(142, 190, 185);
 }
 
 p {
